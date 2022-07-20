@@ -38,7 +38,7 @@ p {
     background-image: url(../images/RayAir.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    height: 100vh;
     background-position: center;
     position: relative;
 }
@@ -136,14 +136,14 @@ p {
 
 .header__decor-text {
     position: absolute;
-    bottom: -55px;
+    bottom: -5px;
     color: #0093A1;
 }
 
 .header__decor-text--one {
     z-index: 1;
     right: 145px;
-    bottom: 40px;
+    bottom: 75px;
 }
 
 .header__decor-text--one,
@@ -158,6 +158,7 @@ p {
 .header__decor-text--two {
     z-index: 4;
     left: 265px;
+    bottom: -27px;
 }
 
 .header__decor-text--three {
@@ -170,4 +171,11 @@ p {
     line-height: 39px;
     text-align: center;
     position: absolute;
+}
+
+.info {
+    background-image: url(../images/section_one.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
