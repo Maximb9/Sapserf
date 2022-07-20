@@ -178,4 +178,35 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+    margin-top: 160px;
+}
+
+.info::before {
+    content: "";
+    position: absolute;
+    background-color: #262C27;
+    height: 180px;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-180px);
+    z-index: 1;
+}
+
+.info__top {
+    display: flex;
+    gap: 80px;
+    padding-top: 70px;
+}
+
+.info__top-text {
+    padding-top: 245px;
+    width: 290px;
+    color: #fff;
+}
+
+.info__top-img {
+    position: relative;
+    z-index: 6;
 }
