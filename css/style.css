@@ -198,15 +198,44 @@ p {
     display: flex;
     gap: 80px;
     padding-top: 70px;
+    margin-bottom: 70vh;
 }
 
 .info__top-text {
     padding-top: 245px;
     width: 290px;
     color: #fff;
+    position: relative;
 }
 
 .info__top-img {
     position: relative;
     z-index: 6;
+}
+
+.info__top-text--one {
+    padding-bottom: 125px;
+}
+
+.info__top-text--two {
+    border-bottom: 1px solid #fff;
+}
+
+.popup-btn {
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.popup-btn span {
+    padding-top: 12px;
+    display: block;
+    color: #fff;
+}
+
+.info__btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
