@@ -292,6 +292,7 @@ ul {
 
 .buy__content {
     width: 510px;
+    position: relative;
 }
 
 .buy__title {
@@ -324,7 +325,20 @@ ul {
     transition: color .3s;
 }
 
-.buy__item-text {}
+.buy__price {
+    position: absolute;
+    width: 201px;
+    height: 199px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42;
+    background-image: url(../images/star.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 112px;
+    right: 0;
+}
 
 .buy__btn {
     padding: 18px;
@@ -339,4 +353,11 @@ ul {
     text-transform: uppercase;
     max-width: 484px;
     width: 100%;
+    transition: all .3s;
+}
+
+.buy__btn:hover {
+    background-color: #B9C400;
+    color: #262C27;
+    border-color: #B9C400;
 }
