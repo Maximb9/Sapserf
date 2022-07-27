@@ -248,6 +248,27 @@ img {
 }
 
 .popup-btn span {
+    transition: color .3s;
+}
+
+.popup-btn:hover span {
+    color: #0093A1;
+}
+
+.popup-btn circle,
+.popup-btn path {
+    transition: all .3s;
+}
+
+.popup-btn:hover path {
+    fill: #B9C400
+}
+
+.popup-btn:hover circle {
+    stroke: #B9C400
+}
+
+.popup-btn span {
     padding-top: 12px;
     display: block;
     color: #fff;
@@ -342,6 +363,11 @@ img {
     align-items: center;
     bottom: 112px;
     right: 0;
+    transition: transform .3s;
+}
+
+.buy__price:hover {
+    transform: scale(1.3);
 }
 
 .buy__btn {
@@ -563,4 +589,16 @@ img {
     font-weight: 700;
     display: flex;
     justify-content: space-between;
+}
+
+.footer__logo {
+    align-self: flex-start;
+}
+
+.footer__logo path {
+    transition: fill .3s;
+}
+
+.footer__logo:hover path {
+    fill: #0093A1;
 }
