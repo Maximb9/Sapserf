@@ -295,7 +295,7 @@ img {
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
     padding: 30px 0 5px 0;
-    min-width: 565px;
+    max-width: 565px;
     font-weight: 700;
 }
 
@@ -611,6 +611,33 @@ img {
 
 }
 
+@media (max-width: 1000px) {
+
+    .info__top {
+        display: block;
+    }
+
+    .info__top-text {
+        width: 100%;
+    }
+
+    .info__top-text--two {
+        padding-bottom: 25px;
+        padding-top: 45px;
+    }
+
+    .info__top-img {
+        display: block;
+        margin: 0 auto;
+        width: 227px;
+    }
+
+    .info__specs {
+        display: block;
+    }
+
+}
+
 @media (max-width: 720px) {
 
     .header__top {
@@ -627,6 +654,17 @@ img {
         margin-right: 0;
     }
 
+}
+
+@media (max-width: 630px) {
+
+    .info__specs-list {
+        width: 100%;
+    }
+
+    .info__specs-item {
+        display: block;
+    }
 }
 
 @media (max-width: 414px) {
